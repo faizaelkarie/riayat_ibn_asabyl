@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
+	<script src="../javascript/ibn.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><div class="tmenu">A propos <i class="arrow right"></i></div>
+                    <div class="smenu">
+                        <ul>
+                            <li><a href="historique.html">Historique</a></li>
+                            <li><a href="ressource.html">Ressources</a></li>
+                            <li><a href="service.html">Services</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><div class="tmenu">Activités <i class="arrow right"></i></div>
+                    <div class="smenu">
+                        <ul>
+                            <li><a href="scolarite.html">Scolaritée</a></li>
+                            <li><a href="nos_missions.html">Nos missions</a></li>
+                            <li><a href="nos_realisations.html">Nos réalisations</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><div class="tmenu">Comment nous aider <i class="arrow right"></i></div>
+                    <div class="smenu">
+                        <ul>
+                            <li><a href="faire_un_don.html">Fair un don</a></li>
+                            <li><a href="parrainage_des_enfants.html">Parrainage des enfants</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="contact"><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="part">
+        <h1 class="btitle">Contact info:</h1>
+        <p class="p1">
+            L'Association <span><strong>Riayat Ibn Assabyl</strong></span>, accompagne le développement social au Maroc depuis 2006,son activité est axée sur 2 volets fondamentaux. <br>
+            La gestion des établissements de protection sociale només <span><strong>DAR LAMIMA</strong></span>. <br>
+            L'Aide à distance aux familles en pauvreté.
+        </p>
+    </div>
+    <div class="part">
+        <h3 class="h">Adresse:</h3>
+        <p class="p1">Douar laarissat-route nationale 3016 lahraouine 7109 casablanca, Maroc</p>
+        <h3 class="h">Téléphone:</h3>
+        <p class="p1">+21(0)6.60.02.19.15 / 212(0)6.61.13.62.34</p>
+        <h3 class="h">Boite postale:</h3>
+        <p class="p1">20420- Casablanca Principal, Maroc</p>
+        <h3 class="h">E-mail:</h3>
+        <p class="p1"><a href="mailto:sefiani.houda@gmail.com">sefiani.houda@gmail.com</a></p>
+    </div>
+    <div class="part">
+        <h2 class="h">Envoyer un message:</h2>
+        <fieldset>
+            <table>
+                <tr>
+                      <tr>  Nom :             <input type="text" name="nom" id="nom" placeholder="votre nom" onchange="nomValidate()" /><tr> <br>
+                      <tr>  Prénom :         <input type="text" name="prenom" id="prenom" placeholder="votre prénom" onchange="prenomValidate()" /></tr><br>
+                      <tr>  Date de naissance :<input type="date" name="date" id="date" /></tr><br>
+                       <tr> Mail :            <input type="email" name="email" id="email" placeholder="votre mail" onchange="validateEmail(email)" /></tr><br>
+                       <tr> Votre téléphone : <input type="text" name="tel" id="tel" placeholder="+212(0)" onchange="telValidate()" /></tr><br>
+                       <tr> Votre message :<br><td>
+						                   <textarea name="decrir" id="decrir" rows="5" cols="50" placeholder="Exprimez vous ici..." onchange="messageValidate()"/>
+						</textarea></td></tr>
+                   <td>
+                        Homme :<input type="radio" name="genre" value="homme" id="homme" /><br>
+                        Femme :<input type="radio" name="genre" value="femme" id="femme" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pays">Votre pays :</label>
+                    </td>
+                    <td>
+                        <select name="pays" id="pays" > 
+                            <option>votre pays</option>  
+                            <option value="france">France</option>
+                            <option value="france">Algérie</option>
+                            <option value="mozambik">Mozambik</option>
+                            <option value="india">India</option>
+                            <option value="usa">U.S.A</option>
+                            <option value="maroc">Maroc</option>
+                            <option value="autre">Autre</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value=" Envoyer " /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+		<footer>
+
+            <marquee behavior="alternate">
+               <font color=#110FEC size="+2"> <strong>Faire un don :  </strong></font>
+	           <font color=#110FEC size="+2"> <strong><U>RIB :</U></strong></font>
+	           <font color="#0CAC78" size="+2"><strong> 022780000148000501346874   CIH BANK   </strong></font>
+	           <font color=#110FEC size="+2"> <strong><U>Code swift:</U></strong></font>
+	           <font color="#0CAC78" size="+2"><strong>SGMBMAMC chez la société générale</strong> </font> 
+	           <font color=#110FEC size="+2"> <strong><U>Tél:</U></strong></font> 
+	           <font color="#0CAC78" size="+2"><strong>06 60 02 19 15/ 06 61 13 62 34</strong></font> 
+           </marquee>
+        </footer>
+
+        <b><font face="kunstler script" size="10" color="#FFFF00"><br><marquee bgcolor="0000FF" style="color:#FFFFFF"><font color=#00FF00 size="+2"> <strong>Faire un don :  </strong></font>
+	     <font color=#FF0000 size="+2"> <strong><U>Adresse:</U></strong></font>
+	     <font color="#FF00FF" size="+2"><strong> Douar laarissat-route nationale 3016 lahraouine 7109 casablanca, Maroc </strong></font>
+	     <font color=#FF0000 size="+2"> <strong><U>Téléphone:</U></strong></font>
+	     <font color="#FF00FF" size="+2"><strong>+212(0)6.60.02.19.15 / +212(0)6.61.13.62.34</strong> </font> 
+	 	 <font color=#FF0000 size="+2"> <strong><U>E-mail:</U></strong></font>
+	     <font color="#FF00FF" size="+2"><strong>sefiani.houda@gmail.com</strong> </font> 
+	     <font color=#FF0000 size="+2"> <strong><U>Boite postale:</U></strong></font> 
+	     <font color="#FF00FF" size="+2"><strong>20420- Casablanca Principal, Maroc</strong></font> </marquee></font></b>
+</body>
+
+</html>
